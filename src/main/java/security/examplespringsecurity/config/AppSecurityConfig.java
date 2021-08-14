@@ -50,7 +50,7 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
 
         UserDetails nemoUser = User.builder()
                 .username("nemo")
-                .password(passwordEncoder.encode("pass"))
+                .password(passwordEncoder.encode("1234"))
 //                .roles("PLAYER")
                 .build();
 
